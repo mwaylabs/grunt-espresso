@@ -1,2 +1,1 @@
-grunt-espresso
-==============
+# This is the verison under development

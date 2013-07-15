@@ -1,0 +1,41 @@
+{
+  "name": "grunt-espresso",
+  "description": "The Grunt plugin for The-M-Project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mwaylabs/grunt-espresso",
+  "author": {
+    "email": "s.buck@mwaysolutions.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwaylabs/grunt-espresso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwaylabs/grunt-espresso/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mwaylabs/grunt-espresso/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "espresso": "~1.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "espresso",
+    "The-M-Project"
+  ]
+}
