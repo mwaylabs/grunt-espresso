@@ -26,12 +26,9 @@
   "scripts": {
     "test": "grunt test"
   },
-  "devDependencies": {
+  "dependencies": {
     "grunt": "~0.4.1",
     "espresso": "~1.4.2"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
   },
   "keywords": [
     "gruntplugin",
