@@ -38,9 +38,11 @@ Path to the project folder which contains the `config.json` file.
 
 ```js
 espresso: {
-  options: {
-    pathToApp: 'myApp/'
-  }
+	build:{
+		options: {
+   			pathToApp: 'myApp/'
+   		}
+	}
 }
 ```
 
@@ -66,10 +68,12 @@ Specify the port of the server
 
 ```js
 espresso: {
-  options: {
-    pathToApp: 'myApp/'
-    pathToApp: 8000
-  }
+	server:{
+		options: {
+   			pathToApp: 'myApp/',
+   			port: 8000
+   		}
+	}
 }
 ```
 
