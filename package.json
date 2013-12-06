@@ -1,7 +1,7 @@
 {
   "name": "grunt-espresso",
   "description": "The Grunt plugin for The-M-Project",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "homepage": "https://github.com/mwaylabs/grunt-espresso",
   "author": {
     "email": "s.buck@mwaysolutions.com"
