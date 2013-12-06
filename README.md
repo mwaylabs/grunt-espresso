@@ -24,7 +24,7 @@ grunt.loadNpmTasks('grunt-espresso');
 
 
 ## Build task
-_Run this task with the `grunt espresso` command._
+_Run this task with the `grunt espresso:build` command._
 
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 ### Options
@@ -40,6 +40,35 @@ Path to the project folder which contains the `config.json` file.
 espresso: {
   options: {
     pathToApp: 'myApp/'
+  }
+}
+```
+
+
+
+## Server task
+_Run this task with the `grunt espresso:server` command._
+
+Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
+### Options
+
+#### pathToApp
+Type: `String`
+
+Path to the project folder which contains the `config.json` file.
+
+#### port
+Type: `Integer`
+
+Specify the port of the server
+
+### Usage Examples
+
+```js
+espresso: {
+  options: {
+    pathToApp: 'myApp/'
+    pathToApp: 8000
   }
 }
 ```
